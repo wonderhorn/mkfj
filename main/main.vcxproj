@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\adv\AdventureObject.h" />
+    <ClInclude Include="include\adv\AdventureScreen.h" />
+    <ClInclude Include="include\adv\CharacterImageSet.h" />
+    <ClInclude Include="include\adv\Script.h" />
+    <ClInclude Include="include\directx\DIController.h" />
+    <ClInclude Include="include\directx\DSHOW.h" />
+    <ClInclude Include="include\directx\DSOUND.h" />
+    <ClInclude Include="include\directx\DXFONT.h" />
+    <ClInclude Include="include\directx\DXheaders.h" />
+    <ClInclude Include="include\directx\DXlib.h" />
+    <ClInclude Include="include\directx\MediaDirectX.h" />
+    <ClInclude Include="include\framework\Animation.h" />
+    <ClInclude Include="include\framework\BaseMedia.h" />
+    <ClInclude Include="include\framework\Control.h" />
+    <ClInclude Include="include\framework\device_alternative_io.h" />
+    <ClInclude Include="include\framework\Game.h" />
+    <ClInclude Include="include\framework\GameUtil.h" />
+    <ClInclude Include="include\framework\Media.h" />
+    <ClInclude Include="include\framework\MediaAlternative.h" />
+    <ClInclude Include="include\framework\MediaToFile.h" />
+    <ClInclude Include="include\framework\Object.h" />
+    <ClInclude Include="include\framework\Physics.h" />
+    <ClInclude Include="include\framework\ResourceLoader.h" />
+    <ClInclude Include="include\framework\Screen.h" />
+    <ClInclude Include="include\framework\Task.h" />
+    <ClInclude Include="include\framework\TaskTest.h" />
+    <ClInclude Include="include\framework\UDPController.h" />
+    <ClInclude Include="include\framework\VirtualController.h" />
+    <ClInclude Include="include\jumpnrun\AITestor.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI.h" />
+    <ClInclude Include="include\jumpnrun\ai\AIActionDecoder.h" />
+    <ClInclude Include="include\jumpnrun\ai\AIEvaluateScreen.h" />
+    <ClInclude Include="include\jumpnrun\ai\AIModules.h" />
+    <ClInclude Include="include\jumpnrun\ai\AIParameters.h" />
+    <ClInclude Include="include\jumpnrun\ai\AIScorePredictor.h" />
+    <ClInclude Include="include\jumpnrun\ai\AISuperviser.h" />
+    <ClInclude Include="include\jumpnrun\ai\AITrainer.h" />
+    <ClInclude Include="include\jumpnrun\ai\AITrainingScreen.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_Bandit.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_Base.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_DeckEdit.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_Handmade.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_Planned.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_Random.h" />
+    <ClInclude Include="include\jumpnrun\ai\AI_Supervised.h" />
+    <ClInclude Include="include\jumpnrun\ai\CharacterStatus.h" />
+    <ClInclude Include="include\jumpnrun\ai\DecisionMaker.h" />
+    <ClInclude Include="include\jumpnrun\ai\FeatureExtraction.h" />
+    <ClInclude Include="include\jumpnrun\ai\FeatureExtractor.h" />
+    <ClInclude Include="include\jumpnrun\ai\Histogram.h" />
+    <ClInclude Include="include\jumpnrun\ai\ProbabilisticGenerativeGrammer.h" />
+    <ClInclude Include="include\jumpnrun\ai\Radar.h" />
+    <ClInclude Include="include\jumpnrun\ai\TemplateHistogram.h" />
+    <ClInclude Include="include\jumpnrun\GRAPHICS.h" />
+    <ClInclude Include="include\jumpnrun\mapchip.h" />
+    <ClInclude Include="include\jumpnrun\MoverUtilities.h" />
+    <ClInclude Include="include\jumpnrun\mover\Barrier.h" />
+    <ClInclude Include="include\jumpnrun\mover\block\block.h" />
+    <ClInclude Include="include\jumpnrun\mover\block\Switch.h" />
+    <ClInclude Include="include\jumpnrun\mover\bullet\Bubble.h" />
+    <ClInclude Include="include\jumpnrun\mover\bullet\Bullet.h" />
+    <ClInclude Include="include\jumpnrun\mover\character\BarrierMan.h" />
+    <ClInclude Include="include\jumpnrun\mover\character\Character.h" />
+    <ClInclude Include="include\jumpnrun\mover\effect\Circle.h" />
+    <ClInclude Include="include\jumpnrun\mover\effect\Effect.h" />
+    <ClInclude Include="include\jumpnrun\mover\Enchant.h" />
+    <ClInclude Include="include\jumpnrun\mover\enemy\Enemy.h" />
+    <ClInclude Include="include\jumpnrun\mover\enemy\EnemyGroup.h" />
+    <ClInclude Include="include\jumpnrun\mover\enemy\PunchingMachine.h" />
+    <ClInclude Include="include\jumpnrun\mover\enemy\Whackamole.h" />
+    <ClInclude Include="include\jumpnrun\mover\Item.h" />
+    <ClInclude Include="include\jumpnrun\mover\Mover.h" />
+    <ClInclude Include="include\jumpnrun\mover\StageAccessor.h" />
+    <ClInclude Include="include\jumpnrun\mover\SystemObject.h" />
+    <ClInclude Include="include\jumpnrun\spell\CardGalleryScreen.h" />
+    <ClInclude Include="include\jumpnrun\spell\Deck.h" />
+    <ClInclude Include="include\jumpnrun\spell\DeckEditScreen.h" />
+    <ClInclude Include="include\jumpnrun\spell\GachaponScreen.h" />
+    <ClInclude Include="include\jumpnrun\spell\Spell.h" />
+    <ClInclude Include="include\jumpnrun\spell\SpellName2Text.h" />
+    <ClInclude Include="include\jumpnrun\spell\SpellSelector.h" />
+    <ClInclude Include="include\jumpnrun\stage\Background.h" />
+    <ClInclude Include="include\jumpnrun\stage\ItemDropper.h" />
+    <ClInclude Include="include\jumpnrun\stage\Stage.h" />
+    <ClInclude Include="include\jumpnrun\stage\StageDataLoader.h" />
+    <ClInclude Include="include\jumpnrun\stage\StageSelectionScreen.h" />
+    <ClInclude Include="include\jumpnrun\system\Achievement.h" />
+    <ClInclude Include="include\jumpnrun\system\BossFactory.h" />
+    <ClInclude Include="include\jumpnrun\system\Camera.h" />
+    <ClInclude Include="include\jumpnrun\system\ConfigScreen.h" />
+    <ClInclude Include="include\jumpnrun\system\Ending.h" />
+    <ClInclude Include="include\jumpnrun\system\Endroll.h" />
+    <ClInclude Include="include\jumpnrun\system\JumpnRunData.h" />
+    <ClInclude Include="include\jumpnrun\system\JumpnRunScreen.h" />
+    <ClInclude Include="include\jumpnrun\system\ObjectManager.h" />
+    <ClInclude Include="include\jumpnrun\system\Parmanent.h" />
+    <ClInclude Include="include\jumpnrun\system\PlayerData.h" />
+    <ClInclude Include="include\jumpnrun\system\Saver.h" />
+    <ClInclude Include="include\jumpnrun\system\Title.h" />
+    <ClInclude Include="include\jumpnrun\system\Widget.h" />
+    <ClInclude Include="include\lp\Automaton.h" />
+    <ClInclude Include="include\lp\Executer.h" />
+    <ClInclude Include="include\lp\Token.h" />
+    <ClInclude Include="include\lp\Tokenizer.h" />
+    <ClInclude Include="include\lp\tree.h" />
+    <ClInclude Include="include\lp\tree_interator.h" />
+    <ClInclude Include="include\lp\tree_node.h" />
+    <ClInclude Include="include\lp\tree_tree.h" />
+    <ClInclude Include="include\lp\Vocabulary.h" />
+    <ClInclude Include="include\mkfj.h" />
+    <ClInclude Include="include\network\ConnectionScreen.h" />
+    <ClInclude Include="include\network\SESSION.h" />
+    <ClInclude Include="include\network\SOCKET.h" />
+    <ClInclude Include="include\tree\tree.h" />
+    <ClInclude Include="include\tree\tree_interator.h" />
+    <ClInclude Include="include\tree\tree_node.h" />
+    <ClInclude Include="include\tree\tree_tree.h" />
+    <ClInclude Include="include\utils\Geometry.h" />
+    <ClInclude Include="include\utils\MultiThread.h" />
+    <ClInclude Include="include\utils\MyCppUtil.h" />
+    <ClInclude Include="include\utils\MyIO.h" />
+    <ClInclude Include="include\utils\MyUtil.h" />
+    <ClInclude Include="include\utils\OwnerHandle.h" />
+    <ClInclude Include="include\utils\Sprine.h" />
+    <ClInclude Include="include\utils\string_util.h" />
+    <ClInclude Include="include\utils\vecutil.h" />
+    <ClInclude Include="include\windows\aitest_main.h" />
+    <ClInclude Include="include\windows\game_main.h" />
+    <ClInclude Include="include\windows\online_main.h" />
+    <ClInclude Include="include\windows\replay_main.h" />
+    <ClInclude Include="include\windows\subwindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\adv\AdventureObject.cpp" />
+    <ClCompile Include="src\adv\AdventureScreen.cpp" />
+    <ClCompile Include="src\adv\AdventureScreenTexts.cpp" />
+    <ClCompile Include="src\adv\Script.cpp" />
+    <ClCompile Include="src\directx\DSHOW.cpp" />
+    <ClCompile Include="src\directx\DSOUND.cpp" />
+    <ClCompile Include="src\directx\DXFONT.cpp" />
+    <ClCompile Include="src\directx\DXlib.cpp" />
+    <ClCompile Include="src\framework\Input.cpp" />
+    <ClCompile Include="src\framework\AndController.cpp" />
+    <ClCompile Include="src\framework\ControllerRecorder.cpp" />
+    <ClCompile Include="src\directx\DIController.cpp" />
+    <ClCompile Include="src\framework\Game.cpp" />
+    <ClCompile Include="src\framework\Graphics.cpp" />
+    <ClCompile Include="src\framework\GraphicsLoader.cpp" />
+    <ClCompile Include="src\framework\JoyPadController.cpp" />
+    <ClCompile Include="src\framework\KeyboardController.cpp" />
+    <ClCompile Include="src\framework\Media.cpp" />
+    <ClCompile Include="src\framework\MediaToFile.cpp" />
+    <ClCompile Include="src\framework\MoverNewer.cpp" />
+    <ClCompile Include="src\framework\Musics.cpp" />
+    <ClCompile Include="src\framework\Object.cpp" />
+    <ClCompile Include="src\framework\ReplayController.cpp" />
+    <ClCompile Include="src\framework\Sound.cpp" />
+    <ClCompile Include="src\framework\Task.cpp" />
+    <ClCompile Include="src\framework\UDPController.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AIActionDecoder.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AICommand.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AIEvaluateScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AIScorePredictor.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AISuperviser.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AITrainer.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AITrainingScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_BanditTree.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_Base.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_DeckEdit.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_Handmade.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_Planned.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_Planned_Plans.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_Random.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\AI_Supervised.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\DecisionMaker.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\FeatureExtractor.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\Histogram.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\ProbabilisticGenerativeGrammer.cpp" />
+    <ClCompile Include="src\jumpnrun\ai\RichFeatureExtractor.cpp" />
+    <ClCompile Include="src\jumpnrun\Constants.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\Animation.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\Barrel.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\Block.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\BombBox.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\Conveyer.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\DisappearingFloor.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\Door.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\FlyingCarpet.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\ItemBox.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\MovingFloor.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\Switch.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\block\Trampoline.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Ball.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Bomb.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Bubble.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\BubbleStream.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Bullet.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Chandelier.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\DarkWave.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\EmitFire.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\EmitGas.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Explosion.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Fire.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Gas.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Laser.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\LaserSlash.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\ShotGun.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\SlowBall.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Sonicboom.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\StarStream.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Sword.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\SwordStream.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Tackle.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Thunder.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Thunderbolt.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\WillowispPerpetual.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Wind.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Whip.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\bullet\Wisp.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\character\AIPlayer.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\character\BarrierMan.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\character\Character.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\character\Player.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\character\Trap.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\Circle.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\Effect.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\Flow.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\HangedKyo.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\LightColumns.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\Particles.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\effect\PrologFujitsubo.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\Enchant.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Angel.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Barrier.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Bat.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Bee.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Bicycle.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\BigEye.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\BigEyeTentacle.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\BigFish.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\BigSlime.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Bird.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Bug.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Candle.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Cannon.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Car.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Dustboxman.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Elf.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Enemy.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\EnemyGroup.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Fairy.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Fish.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Frog.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Gargoyle.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Ghost.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Goblin.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Hand.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Jellyfish.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Kendo.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Knight.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Lamp.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\ManaFlower.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Mandragora.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Mole.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Mushroom.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Pumpkin.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\PunchingMachine.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Pylonman.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Researcher.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\RotaryCannon.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Slime.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Snail.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Urchin.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Volley.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\enemy\Whackamole.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\ItemDropper.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\item\Gacha.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\item\Item.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\Mover.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\MoverUtilities.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\Radar.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\StageAccessor.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\SystemObject.cpp" />
+    <ClCompile Include="src\jumpnrun\mover\Wing.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\CardGalleryScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\Deck.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\DeckEditScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\GachaponScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\Spell.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\SpellName2Text.cpp" />
+    <ClCompile Include="src\jumpnrun\spell\SpellSelector.cpp" />
+    <ClCompile Include="src\jumpnrun\stage\Background.cpp" />
+    <ClCompile Include="src\jumpnrun\stage\Stage.cpp" />
+    <ClCompile Include="src\jumpnrun\stage\StageDataLoader.cpp" />
+    <ClCompile Include="src\jumpnrun\stage\StageSelectionScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Achievement.cpp" />
+    <ClCompile Include="src\jumpnrun\system\AchievementScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\system\BossFactory.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Camera.cpp" />
+    <ClCompile Include="src\jumpnrun\system\ConfigScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Control.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Ending.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Endroll.cpp" />
+    <ClCompile Include="src\jumpnrun\system\JumpnRunData.cpp" />
+    <ClCompile Include="src\jumpnrun\system\JumpnRunScreen.cpp" />
+    <ClCompile Include="src\jumpnrun\system\JumpnRunScreen_TaskList.cpp" />
+    <ClCompile Include="src\jumpnrun\system\ObjectManager.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Parmanent.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Prolog.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Saver.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Title.cpp" />
+    <ClCompile Include="src\jumpnrun\system\Widget.cpp" />
+    <ClCompile Include="src\lp\Automaton.cpp" />
+    <ClCompile Include="src\lp\Executer.cpp" />
+    <ClCompile Include="src\lp\Token.cpp" />
+    <ClCompile Include="src\lp\Tokenizer.cpp" />
+    <ClCompile Include="src\lp\Vocabulary.cpp" />
+    <ClCompile Include="src\network\ConnectionScreen.cpp" />
+    <ClCompile Include="src\network\SESSION.cpp" />
+    <ClCompile Include="src\network\SOCKET.cpp" />
+    <ClCompile Include="src\utils\GameUtil.cpp" />
+    <ClCompile Include="src\utils\Geometry.cpp" />
+    <ClCompile Include="src\utils\MultiThread.cpp" />
+    <ClCompile Include="src\utils\MyIO.cpp" />
+    <ClCompile Include="src\utils\MyUtil.cpp" />
+    <ClCompile Include="src\utils\Sprine.cpp" />
+    <ClCompile Include="src\utils\string_util.cpp" />
+    <ClCompile Include="src\utils\vecutil.cpp" />
+    <ClCompile Include="src\windows\main.cpp" />
+    <ClCompile Include="src\windows\subwindow.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F8384023-D0F7-4D40-8662-8EE15669F547}</ProjectGuid>
+    <RootNamespace>main</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;.\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;.\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D GFW_WIN32 /D _CRTDBG_MAP_ALLOC %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;strmiids.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D GFW_WIN32 /D _CRTDBG_MAP_ALLOC %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D GFW_WIN32 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>winmm.lib;d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;strmiids.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

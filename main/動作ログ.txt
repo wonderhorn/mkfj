@@ -1,0 +1,16 @@
+MKFJ log
+Built on Jul 11 2019 07:47:56
+ウィンドウを作成します。
+ウィンドウ作成に成功しました。
+Direct3Dを初期化します。
+Direct3D9オブジェクトの生成に成功しました。
+Direct3D9デバイスのハードウェア頂点処理モードでの取得に成功しました。
+Direct3Dの初期化を正常に終了しました。
+DirectSoundを初期化します。
+DirectSoundの初期化に成功しました。
+DirectShowを初期化します。
+DirectShowの初期化を終了しました。
+DirectInputを初期化します。
+入力デバイスを取得しました: 
+キーボードの取得に成功しました。
+DirectInputの初期化を終了します。

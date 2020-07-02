@@ -1,0 +1,122 @@
+name noname
+width 18
+height 12
+background sky
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y 0
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 0
+bg_translate_rate_y 0
+bgm grassland.mp3 5.24
+mapchip 0 512 576 0 64 64 
+mapchip 64 512 576 0 64 64 
+mapchip 128 512 576 0 64 64 
+mapchip 192 512 576 0 64 64 
+mapchip 256 512 576 0 64 64 
+mapchip 320 512 576 0 64 64 
+mapchip 384 512 576 0 64 64 
+mapchip 448 512 576 0 64 64 
+mapchip 0 576 640 0 64 64 
+mapchip 64 576 640 0 64 64 
+mapchip 128 576 640 0 64 64 
+mapchip 192 576 640 0 64 64 
+mapchip 256 576 640 0 64 64 
+mapchip 320 576 640 0 64 64 
+mapchip 384 576 640 0 64 64 
+mapchip 448 576 640 0 64 64 
+mapchip 512 576 640 0 64 64 
+mapchip 0 640 640 0 64 64 
+mapchip 64 640 640 0 64 64 
+mapchip 128 640 640 0 64 64 
+mapchip 192 640 640 0 64 64 
+mapchip 256 640 640 0 64 64 
+mapchip 320 640 640 0 64 64 
+mapchip 384 640 640 0 64 64 
+mapchip 448 640 640 0 64 64 
+mapchip 512 640 640 0 64 64 
+mapchip 0 704 640 0 64 64 
+mapchip 64 704 640 0 64 64 
+mapchip 128 704 640 0 64 64 
+mapchip 192 704 640 0 64 64 
+mapchip 256 704 640 0 64 64 
+mapchip 320 704 640 0 64 64 
+mapchip 384 704 640 0 64 64 
+mapchip 448 704 640 0 64 64 
+mapchip 512 704 640 0 64 64 
+mapchip 512 512 576 0 64 64 
+mapchip 576 512 576 0 64 64 
+mapchip 640 512 576 0 64 64 
+mapchip 704 512 576 0 64 64 
+mapchip 768 512 576 0 64 64 
+mapchip 576 576 640 0 64 64 
+mapchip 640 576 640 0 64 64 
+mapchip 704 576 640 0 64 64 
+mapchip 576 640 640 0 64 64 
+mapchip 640 640 640 0 64 64 
+mapchip 704 640 640 0 64 64 
+mapchip 576 704 640 0 64 64 
+mapchip 640 704 640 0 64 64 
+mapchip 704 704 640 0 64 64 
+mapchip 768 576 640 0 64 64 
+mapchip 768 640 640 0 64 64 
+mapchip 768 704 640 0 64 64 
+mapchip 832 576 640 0 64 64 
+mapchip 896 576 640 0 64 64 
+mapchip 960 576 640 0 64 64 
+mapchip 1024 576 640 0 64 64 
+mapchip 1088 576 640 0 64 64 
+mapchip 832 640 640 0 64 64 
+mapchip 896 640 640 0 64 64 
+mapchip 960 640 640 0 64 64 
+mapchip 1024 640 640 0 64 64 
+mapchip 1088 640 640 0 64 64 
+mapchip 832 704 640 0 64 64 
+mapchip 896 704 640 0 64 64 
+mapchip 960 704 640 0 64 64 
+mapchip 1024 704 640 0 64 64 
+mapchip 1088 704 640 0 64 64 
+mapchip 832 512 576 0 64 64 
+mapchip 896 512 576 0 64 64 
+mapchip 960 512 576 0 64 64 
+mapchip 1024 512 576 0 64 64 
+mapchip 1088 512 576 0 64 64 
+mapchip 1152 512 576 0 64 64 
+mapchip 384 384 704 0 64 64 
+mapchip 192 448 704 128 64 64 
+mapchip 384 448 704 64 64 64 
+mapchip 960 448 320 0 64 64 
+mapchip 704 384 704 0 64 64 
+mapchip 704 448 704 64 64 64 
+object 0 448 608 1056 32 32 load4.txt,3808,384
+object 0 480 608 1088 32 32 load4.txt,3808,384
+object 416 288 32 960 32 32 1
+object 416 320 32 960 32 32 1
+object 416 352 32 960 32 32 1
+object 416 384 32 960 32 32 1
+object 416 416 32 960 32 32 1
+object 416 448 32 960 32 32 1
+object 416 480 32 960 32 32 1
+object 544 448 0 64 32 32 
+object 96 480 288 800 32 32 
+object 192 416 96 512 32 32 
+object 224 416 96 512 32 32 
+object 192 448 0 544 32 32 
+object 224 448 0 544 32 32 
+object 1120 448 608 1056 32 32 forest_river.txt,480,384
+object 1120 480 608 1088 32 32 forest_river.txt,480,384
+object 992 416 608 512 32 32 34,br2
+billboard 832 480 128 0 64 32 0.9 1 images\trees.bmp
+billboard 800 480 128 0 64 32 0.9 1 images\trees.bmp
+billboard 480 480 128 0 64 32 0.9 1 images\trees.bmp
+billboard 928 416 0 0 64 96 0.9 1 images\trees.bmp
+billboard 1024 416 0 0 64 96 0.9 1 images\trees.bmp
+billboard 960 416 64 0 64 96 0.9 1 images\trees.bmp
+billboard 256 416 128 0 64 96 0.75 1 images\buildings.bmp
+billboard 160 448 128 0 64 96 0.75 1 images\buildings.bmp
+billboard 352 416 128 0 64 128 0.75 1 images\buildings.bmp
+billboard 448 448 128 0 64 128 0.75 1 images\buildings.bmp

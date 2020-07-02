@@ -1,0 +1,26 @@
+name noname
+width 10
+height 7
+mapchip 0 384 0 0 64 64
+mapchip 64 384 0 0 64 64
+mapchip 128 384 0 0 64 64
+mapchip 192 384 0 0 64 64
+mapchip 256 384 0 0 64 64
+mapchip 320 384 0 0 64 64
+mapchip 384 384 0 0 64 64
+mapchip 448 384 0 0 64 64
+mapchip 512 384 0 0 64 64
+mapchip 576 384 0 0 64 64
+mapchip 640 384 0 0 64 64
+mapchip 704 384 0 0 64 64
+mapchip 768 384 0 0 64 64
+mapchip 832 384 0 0 64 64
+mapchip 896 384 0 0 64 64
+object 32 320 0 0 32 32 
+object 320 320 0 64 32 32 
+object 224 192 32 960 32 32 
+object 224 224 32 960 32 32 
+object 224 256 32 960 32 32 
+object 224 288 32 960 32 32 
+object 224 320 32 960 32 32 
+object 224 352 32 960 32 32 

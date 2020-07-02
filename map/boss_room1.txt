@@ -1,0 +1,102 @@
+name noname
+width 16
+height 8
+background ground
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y -96
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 0.8
+bg_translate_rate_y 0.8
+bgm dailylife2.mp3 5.24
+mapchip 0 0 0 64 64 64 
+mapchip 64 0 0 64 64 64 
+mapchip 128 0 0 64 64 64 
+mapchip 192 0 0 64 64 64 
+mapchip 0 64 0 64 64 64 
+mapchip 64 64 0 64 64 64 
+mapchip 128 64 0 64 64 64 
+mapchip 192 64 0 64 64 64 
+mapchip 0 128 0 64 64 64 
+mapchip 64 128 0 64 64 64 
+mapchip 128 128 0 64 64 64 
+mapchip 192 128 0 64 64 64 
+mapchip 0 192 0 64 64 64 
+mapchip 64 192 0 64 64 64 
+mapchip 128 192 0 64 64 64 
+mapchip 192 192 0 64 64 64 
+mapchip 256 128 192 64 64 64 
+mapchip 320 128 192 64 64 64 
+mapchip 384 128 192 64 64 64 
+mapchip 448 128 192 64 64 64 
+mapchip 512 128 192 64 64 64 
+mapchip 576 128 192 64 64 64 
+mapchip 640 128 192 64 64 64 
+mapchip 704 128 192 64 64 64 
+mapchip 768 128 192 64 64 64 
+mapchip 832 128 192 64 64 64 
+mapchip 896 128 192 64 64 64 
+mapchip 960 128 192 64 64 64 
+mapchip 0 320 64 64 64 64 
+mapchip 0 256 0 128 64 64 
+mapchip 64 256 64 320 64 64 
+mapchip 128 256 64 320 64 64 
+mapchip 192 256 64 320 64 64 
+mapchip 64 320 64 320 64 64 
+mapchip 128 320 64 320 64 64 
+mapchip 192 320 64 320 64 64 
+mapchip 0 384 0 0 64 64 
+mapchip 64 384 0 0 64 64 
+mapchip 128 384 0 0 64 64 
+mapchip 192 384 0 0 64 64 
+mapchip 256 384 128 128 64 64 
+mapchip 320 384 64 0 64 64 
+mapchip 384 384 64 0 64 64 
+mapchip 448 384 64 0 64 64 
+mapchip 512 384 64 0 64 64 
+mapchip 576 384 64 0 64 64 
+mapchip 640 384 64 0 64 64 
+mapchip 704 384 64 0 64 64 
+mapchip 768 384 64 0 64 64 
+mapchip 832 384 64 0 64 64 
+mapchip 896 384 64 0 64 64 
+mapchip 960 384 64 0 64 64 
+mapchip 0 448 0 64 64 64 
+mapchip 64 448 448 64 64 64 
+mapchip 128 448 448 64 64 64 
+mapchip 192 448 448 64 64 64 
+mapchip 256 448 448 64 64 64 
+mapchip 320 448 448 64 64 64 
+mapchip 384 448 448 64 64 64 
+mapchip 448 448 448 64 64 64 
+mapchip 512 448 448 64 64 64 
+mapchip 576 448 448 64 64 64 
+mapchip 640 448 448 64 64 64 
+mapchip 704 448 448 64 64 64 
+mapchip 768 448 448 64 64 64 
+mapchip 832 448 448 64 64 64 
+mapchip 896 448 448 64 64 64 
+mapchip 960 448 448 64 64 64 
+mapchip 1024 448 448 64 64 64 
+object 640 320 0 128 32 32 
+object 512 160 32 960 32 32 
+object 512 192 32 960 32 32 
+object 512 224 32 960 32 32 
+object 512 256 32 960 32 32 
+object 512 288 32 960 32 32 
+object 512 320 32 960 32 32 
+object 512 352 32 960 32 32 
+object 992 320 608 1056 32 32 ground1.txt,64,448
+object 192 352 288 800 32 32 
+object 320 352 32 512 32 32 
+object 352 352 96 512 32 32 
+object 352 320 96 512 32 32 
+object 320 320 32 512 32 32 
+object 64 320 544 512 32 32 rouka3.txt,1952,576
+object 64 352 544 512 32 32 rouka3.txt,1952,576
+object 992 352 608 1088 32 32 ground1.txt,64,448
+object 992 288 608 512 32 32 1,br1

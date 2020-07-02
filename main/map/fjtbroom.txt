@@ -1,0 +1,90 @@
+name noname
+width 14
+height 8
+background room
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y 0
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 1
+bg_translate_rate_y 1
+bgm none 0
+mapchip 0 256 0 64 64 64 
+mapchip 64 256 0 64 64 64 
+mapchip 128 256 0 64 64 64 
+mapchip 192 256 0 0 64 64 
+mapchip 256 256 320 896 64 64 
+mapchip 320 256 320 896 64 64 
+mapchip 384 256 0 0 64 64 
+mapchip 448 256 0 0 64 64 
+mapchip 512 256 0 0 64 64 
+mapchip 576 256 0 64 64 64 
+mapchip 640 256 0 64 64 64 
+mapchip 704 256 0 64 64 64 
+mapchip 0 0 0 64 64 64 
+mapchip 0 64 0 64 64 64 
+mapchip 0 128 0 64 64 64 
+mapchip 0 192 0 64 64 64 
+mapchip 64 0 0 64 64 64 
+mapchip 128 0 0 64 64 64 
+mapchip 192 0 0 64 64 64 
+mapchip 256 0 0 64 64 64 
+mapchip 320 0 0 64 64 64 
+mapchip 384 0 0 64 64 64 
+mapchip 448 0 0 64 64 64 
+mapchip 512 0 0 64 64 64 
+mapchip 576 0 0 64 64 64 
+mapchip 640 0 0 64 64 64 
+mapchip 704 0 0 64 64 64 
+mapchip 704 64 0 64 64 64 
+mapchip 704 128 0 64 64 64 
+mapchip 704 192 0 64 64 64 
+mapchip 64 320 0 64 64 64 
+mapchip 128 320 0 832 64 64 
+mapchip 192 320 0 832 64 64 
+mapchip 256 320 0 64 64 64 
+mapchip 320 320 0 832 64 64 
+mapchip 384 320 0 832 64 64 
+mapchip 448 320 0 64 64 64 
+mapchip 512 320 0 832 64 64 
+mapchip 576 320 0 64 64 64 
+mapchip 640 320 0 64 64 64 
+mapchip 0 320 0 64 64 64 
+mapchip 0 384 0 64 64 64 
+mapchip 704 320 0 64 64 64 
+mapchip 704 384 0 64 64 64 
+mapchip 256 384 0 64 64 64 
+mapchip 64 384 0 64 64 64 
+mapchip 128 384 0 64 64 64 
+mapchip 192 384 0 64 64 64 
+mapchip 320 384 0 64 64 64 
+mapchip 384 384 0 64 64 64 
+mapchip 448 384 0 64 64 64 
+mapchip 512 384 0 64 64 64 
+mapchip 576 384 0 64 64 64 
+mapchip 640 384 0 64 64 64 
+mapchip 64 64 0 64 64 64 
+mapchip 64 128 0 64 64 64 
+mapchip 64 192 0 64 64 64 
+mapchip 640 64 0 64 64 64 
+mapchip 640 128 0 64 64 64 
+mapchip 640 192 0 64 64 64 
+mapchip 256 192 0 896 64 64 
+mapchip 576 64 0 64 64 64 
+mapchip 576 128 0 64 64 64 
+mapchip 576 192 0 64 64 64 
+mapchip 384 128 128 896 64 64 
+mapchip 384 192 64 896 64 64 
+mapchip 128 64 0 64 64 64 
+mapchip 128 128 0 64 64 64 
+mapchip 128 192 0 64 64 64 
+mapchip 320 64 256 512 64 64 
+mapchip 448 128 192 896 64 64 
+mapchip 192 192 256 896 64 64 
+mapchip 320 192 384 896 64 64 
+object 544 224 288 768 32 32 
+object 384 224 992 1120 32 32 

@@ -1,0 +1,96 @@
+name noname
+width 12
+height 8
+background school
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y -40
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 1
+bg_translate_rate_y 1
+bgm grassland.mp3 5.24
+mapchip 0 320 640 640 64 64 
+mapchip 64 320 640 640 64 64 
+mapchip 128 320 640 640 64 64 
+mapchip 192 320 640 640 64 64 
+mapchip 256 320 640 640 64 64 
+mapchip 320 320 640 640 64 64 
+mapchip 384 320 640 640 64 64 
+mapchip 448 320 640 640 64 64 
+mapchip 512 320 640 640 64 64 
+mapchip 576 320 640 640 64 64 
+mapchip 640 320 640 640 64 64 
+mapchip 704 320 640 640 64 64 
+mapchip 768 320 448 0 64 64 
+mapchip 832 320 448 0 64 64 
+mapchip 896 320 448 0 64 64 
+mapchip 960 320 448 0 64 64 
+mapchip 1024 320 448 0 64 64 
+mapchip 0 384 640 0 64 64 
+mapchip 64 384 640 0 64 64 
+mapchip 128 384 640 0 64 64 
+mapchip 192 384 640 0 64 64 
+mapchip 256 384 640 0 64 64 
+mapchip 320 384 640 0 64 64 
+mapchip 384 384 640 0 64 64 
+mapchip 448 384 640 0 64 64 
+mapchip 512 384 640 0 64 64 
+mapchip 576 384 640 0 64 64 
+mapchip 640 384 640 0 64 64 
+mapchip 704 384 640 0 64 64 
+mapchip 0 448 640 0 64 64 
+mapchip 64 448 640 0 64 64 
+mapchip 128 448 640 0 64 64 
+mapchip 192 448 640 0 64 64 
+mapchip 256 448 640 0 64 64 
+mapchip 320 448 640 0 64 64 
+mapchip 384 448 640 0 64 64 
+mapchip 448 448 640 0 64 64 
+mapchip 512 448 640 0 64 64 
+mapchip 576 448 640 0 64 64 
+mapchip 640 448 640 0 64 64 
+mapchip 704 448 640 0 64 64 
+mapchip 704 0 0 64 64 64 
+mapchip 704 64 0 64 64 64 
+mapchip 704 128 0 640 64 64 
+mapchip 704 192 0 640 64 64 
+mapchip 704 256 0 640 64 64 
+mapchip 64 0 0 64 64 64 
+mapchip 128 0 0 64 64 64 
+mapchip 192 0 0 64 64 64 
+mapchip 256 0 0 64 64 64 
+mapchip 320 0 0 64 64 64 
+mapchip 384 0 0 64 64 64 
+mapchip 448 0 0 64 64 64 
+mapchip 512 0 0 64 64 64 
+mapchip 576 0 0 64 64 64 
+mapchip 640 0 0 64 64 64 
+mapchip 0 64 0 64 64 64 
+mapchip 0 128 0 640 64 64 
+mapchip 0 192 0 640 64 64 
+mapchip 0 256 0 640 64 64 
+mapchip 0 0 0 64 64 64 
+mapchip 256 256 64 384 64 64 
+mapchip 320 256 64 384 64 64 
+mapchip 384 256 64 384 64 64 
+mapchip 448 256 64 384 64 64 
+mapchip 512 256 320 640 64 64 
+mapchip 576 256 64 384 64 64 
+mapchip 640 256 64 512 64 64 
+mapchip 64 64 0 64 64 64 
+mapchip 128 64 0 64 64 64 
+mapchip 192 64 0 64 64 64 
+mapchip 256 64 0 64 64 64 
+mapchip 320 64 0 64 64 64 
+mapchip 384 64 0 64 64 64 
+mapchip 448 64 0 64 64 64 
+mapchip 512 64 0 64 64 64 
+mapchip 576 64 0 64 64 64 
+mapchip 640 64 0 64 64 64 
+object 64 256 544 512 32 32 load4.txt,3284,384
+object 64 288 544 512 32 32 load4.txt,3284,384
+object 512 256 896 512 32 32 card,23

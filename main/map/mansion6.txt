@@ -1,0 +1,115 @@
+name noname
+width 12
+height 9
+background garden
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y -80
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 0
+bg_translate_rate_y 0.4
+bgm none 0
+mapchip 0 0 832 64 64 64 
+mapchip 0 64 832 64 64 64 
+mapchip 0 128 832 64 64 64 
+mapchip 0 192 832 64 64 64 
+mapchip 0 256 832 64 64 64 
+mapchip 0 320 832 64 64 64 
+mapchip 0 384 832 64 64 64 
+mapchip 0 448 832 64 64 64 
+mapchip 0 512 832 64 64 64 
+mapchip 0 576 832 64 64 64 
+mapchip 0 640 832 64 64 64 
+mapchip 0 704 832 64 64 64 
+mapchip 64 448 832 64 64 64 
+mapchip 128 448 832 64 64 64 
+mapchip 192 448 832 64 64 64 
+mapchip 256 448 832 64 64 64 
+mapchip 320 448 832 64 64 64 
+mapchip 384 448 832 64 64 64 
+mapchip 448 448 832 64 64 64 
+mapchip 512 448 832 64 64 64 
+mapchip 576 448 832 64 64 64 
+mapchip 640 448 832 64 64 64 
+mapchip 704 448 832 64 64 64 
+mapchip 768 448 832 64 64 64 
+mapchip 832 448 832 64 64 64 
+mapchip 64 384 832 0 64 64 
+mapchip 128 384 832 0 64 64 
+mapchip 192 384 832 0 64 64 
+mapchip 256 384 832 0 64 64 
+mapchip 320 384 832 0 64 64 
+mapchip 384 384 832 0 64 64 
+mapchip 448 384 832 0 64 64 
+mapchip 512 384 832 0 64 64 
+mapchip 576 384 832 0 64 64 
+mapchip 640 384 832 0 64 64 
+mapchip 704 384 832 0 64 64 
+mapchip 448 320 128 384 64 64 
+mapchip 512 320 128 384 64 64 
+mapchip 576 320 128 384 64 64 
+mapchip 640 320 128 384 64 64 
+mapchip 704 320 128 384 64 64 
+object 64 320 608 1056 32 32 mansion5.txt,1440,448
+object 64 352 608 1088 32 32 mansion5.txt,1440,448
+object 352 0 928 992 32 32 gameclear
+object 352 32 928 992 32 32 gameclear
+object 352 64 32 960 32 32 10
+object 352 96 32 960 32 32 10
+object 352 128 32 960 32 32 10
+object 352 160 32 960 32 32 10
+object 352 192 32 960 32 32 10
+object 352 224 32 960 32 32 10
+object 352 256 32 960 32 32 10
+object 352 288 32 960 32 32 10
+object 352 320 32 960 32 32 10
+object 352 352 32 960 32 32 10
+object 608 352 128 544 32 32 
+object 608 288 928 992 32 32 gameclear
+object 640 288 928 992 32 32 gameclear
+object 64 0 928 992 32 32 gameclear
+object 96 0 928 992 32 32 gameclear
+object 128 0 928 992 32 32 gameclear
+object 160 0 928 992 32 32 gameclear
+object 192 0 928 992 32 32 gameclear
+object 224 0 928 992 32 32 gameclear
+object 256 0 928 992 32 32 gameclear
+object 288 0 928 992 32 32 gameclear
+object 320 0 928 992 32 32 gameclear
+object 384 0 928 992 32 32 gameclear
+object 416 0 928 992 32 32 gameclear
+object 448 0 928 992 32 32 gameclear
+object 480 0 928 992 32 32 gameclear
+object 512 0 928 992 32 32 gameclear
+object 544 0 928 992 32 32 gameclear
+object 576 0 928 992 32 32 gameclear
+object 608 0 928 992 32 32 gameclear
+object 640 0 928 992 32 32 gameclear
+object 672 0 928 992 32 32 gameclear
+object 704 0 928 992 32 32 gameclear
+object 736 0 928 992 32 32 gameclear
+object 64 32 928 992 32 32 gameclear
+object 96 32 928 992 32 32 gameclear
+object 128 32 928 992 32 32 gameclear
+object 160 32 928 992 32 32 gameclear
+object 192 32 928 992 32 32 gameclear
+object 224 32 928 992 32 32 gameclear
+object 256 32 928 992 32 32 gameclear
+object 288 32 928 992 32 32 gameclear
+object 320 32 928 992 32 32 gameclear
+object 384 32 928 992 32 32 gameclear
+object 416 32 928 992 32 32 gameclear
+object 448 32 928 992 32 32 gameclear
+object 480 32 928 992 32 32 gameclear
+object 512 32 928 992 32 32 gameclear
+object 544 32 928 992 32 32 gameclear
+object 576 32 928 992 32 32 gameclear
+object 608 32 928 992 32 32 gameclear
+object 640 32 928 992 32 32 gameclear
+object 672 32 928 992 32 32 gameclear
+object 704 32 928 992 32 32 gameclear
+object 736 32 928 992 32 32 gameclear

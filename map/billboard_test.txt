@@ -1,0 +1,34 @@
+name noname
+width 10
+height 8
+background sky
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y 0
+bg_translate_rate 0
+mapchip 0 384 512 0 64 64 
+mapchip 64 384 512 0 64 64 
+mapchip 128 384 512 0 64 64 
+mapchip 192 384 512 0 64 64 
+mapchip 256 384 512 0 64 64 
+mapchip 320 384 512 0 64 64 
+mapchip 384 384 512 0 64 64 
+mapchip 448 384 512 0 64 64 
+mapchip 512 384 512 0 64 64 
+mapchip 576 384 512 0 64 64 
+mapchip 640 384 512 0 64 64 
+mapchip 704 384 512 0 64 64 
+mapchip 0 448 448 64 64 64 
+mapchip 64 448 448 64 64 64 
+mapchip 128 448 448 64 64 64 
+mapchip 192 448 448 64 64 64 
+mapchip 256 448 448 64 64 64 
+mapchip 320 448 448 64 64 64 
+mapchip 384 448 448 64 64 64 
+mapchip 448 448 448 64 64 64 
+mapchip 512 448 448 64 64 64 
+mapchip 576 448 448 64 64 64 
+mapchip 640 448 448 64 64 64 
+billboard 128 192 0 32 128 224 C:\Users\bird01\Documents\Visual Studio 2013\Projects\GameTemplate\MapEditor\bin\images\buildings.bmp
+billboard 448 256 128 128 320 128 C:\Users\bird01\Documents\Visual Studio 2013\Projects\GameTemplate\MapEditor\bin\images\buildings.bmp

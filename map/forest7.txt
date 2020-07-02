@@ -1,0 +1,86 @@
+name noname
+width 14
+height 9
+background forest
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y -40
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 0
+bg_translate_rate_y 0
+bgm forest.mp3 6.27
+mapchip 0 512 384 0 64 64 
+mapchip 64 512 384 0 64 64 
+mapchip 128 512 320 64 64 64 
+mapchip 192 512 320 64 64 64 
+mapchip 256 512 320 64 64 64 
+mapchip 320 512 320 64 64 64 
+mapchip 384 512 320 64 64 64 
+mapchip 448 512 320 64 64 64 
+mapchip 512 512 320 64 64 64 
+mapchip 576 512 320 64 64 64 
+mapchip 640 512 320 64 64 64 
+mapchip 704 512 384 0 64 64 
+mapchip 768 512 320 64 64 64 
+mapchip 832 512 384 0 64 64 
+mapchip 0 448 640 320 64 64 
+mapchip 0 0 320 0 64 64 
+mapchip 0 64 384 0 64 64 
+mapchip 0 128 384 0 64 64 
+mapchip 0 192 384 0 64 64 
+mapchip 0 256 384 0 64 64 
+mapchip 0 320 384 0 64 64 
+mapchip 0 384 384 0 64 64 
+mapchip 832 0 320 0 64 64 
+mapchip 832 64 384 0 64 64 
+mapchip 832 128 384 0 64 64 
+mapchip 832 192 384 0 64 64 
+mapchip 832 256 384 0 64 64 
+mapchip 832 320 384 0 64 64 
+mapchip 832 384 384 0 64 64 
+mapchip 832 448 384 0 64 64 
+mapchip 704 192 320 64 64 64 
+mapchip 768 192 320 64 64 64 
+mapchip 64 256 384 0 64 64 
+mapchip 128 256 384 0 64 64 
+mapchip 192 256 384 64 64 64 
+mapchip 256 256 384 128 64 64 
+mapchip 64 448 640 320 64 64 
+mapchip 64 320 384 0 64 64 
+mapchip 64 384 384 0 64 64 
+mapchip 128 320 384 0 64 64 
+mapchip 128 384 384 0 64 64 
+mapchip 128 448 640 320 64 64 
+mapchip 64 192 640 320 64 64 
+mapchip 128 192 640 320 64 64 
+mapchip 64 0 320 0 64 64 
+mapchip 128 0 320 0 64 64 
+mapchip 64 64 384 0 64 64 
+mapchip 128 64 384 0 64 64 
+mapchip 64 128 384 0 64 64 
+mapchip 128 128 384 0 64 64 
+mapchip 448 320 320 0 64 64 
+mapchip 448 384 384 0 64 64 
+mapchip 448 448 640 320 64 64 
+mapchip 704 448 320 0 64 64 
+mapchip 576 384 320 128 64 64 
+mapchip 512 384 320 64 64 64 
+mapchip 640 192 320 192 64 64 
+mapchip 640 64 384 192 64 64 
+mapchip 704 64 384 64 64 64 
+mapchip 768 64 384 64 64 64 
+object 704 160 192 512 32 32 f7_1
+object 160 192 576 992 32 32 f7_1
+object 64 224 192 512 32 32 f7_1
+object 544 320 352 832 32 32 
+object 640 448 352 832 32 32 
+object 544 448 352 832 32 32 
+object 576 480 192 544 32 32 f7_2
+object 640 128 576 992 32 32 f7_2
+object 800 160 192 544 32 32 f7_2
+object 96 224 608 512 32 32 42
+object 0 448 608 1056 32 32 forest5.txt,1852,384

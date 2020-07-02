@@ -1,0 +1,66 @@
+name noname
+width 10
+height 9
+background forest
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y -20
+bg_x_min 0
+bg_x_max 999999
+bg_y_min -540
+bg_y_max -480
+bg_translate_rate_x 0
+bg_translate_rate_y 0
+bgm forest.mp3 6.27
+mapchip 64 512 320 64 64 64 
+mapchip 128 512 320 64 64 64 
+mapchip 192 512 320 64 64 64 
+mapchip 256 512 320 64 64 64 
+mapchip 320 512 320 64 64 64 
+mapchip 384 512 320 64 64 64 
+mapchip 448 512 320 64 64 64 
+mapchip 512 512 320 64 64 64 
+mapchip 576 512 384 0 64 64 
+mapchip 0 192 320 0 64 64 
+mapchip 0 256 384 0 64 64 
+mapchip 0 320 384 0 64 64 
+mapchip 0 384 384 0 64 64 
+mapchip 0 448 640 320 64 64 
+mapchip 0 512 384 0 64 64 
+mapchip 576 192 320 0 64 64 
+mapchip 576 256 384 0 64 64 
+mapchip 576 320 384 0 64 64 
+mapchip 576 384 384 0 64 64 
+mapchip 576 448 640 320 64 64 
+mapchip 64 192 320 0 64 64 
+mapchip 128 192 320 0 64 64 
+mapchip 192 192 320 0 64 64 
+mapchip 256 192 320 0 64 64 
+mapchip 320 192 320 0 64 64 
+mapchip 384 192 320 0 64 64 
+mapchip 448 192 320 0 64 64 
+mapchip 512 192 320 0 64 64 
+mapchip 384 256 320 512 64 64 
+mapchip 64 448 0 576 64 64 
+mapchip 128 448 0 576 64 64 
+mapchip 192 448 0 576 64 64 
+mapchip 256 448 0 576 64 64 
+mapchip 320 448 0 576 64 64 
+mapchip 384 448 0 576 64 64 
+mapchip 448 448 0 576 64 64 
+mapchip 512 448 0 576 64 64 
+object 0 448 608 1056 32 32 forest3.txt,384,128
+object 0 480 608 1088 32 32 forest3.txt,384,128
+object 416 256 32 992 32 32 bee,mbf
+object 576 448 576 992 32 32 mbf
+object 288 256 32 960 32 32 2
+object 288 288 32 960 32 32 2
+object 288 320 32 960 32 32 2
+object 288 352 32 960 32 32 2
+object 288 384 32 960 32 32 2
+object 288 416 32 960 32 32 2
+object 288 448 32 960 32 32 2
+object 288 480 32 960 32 32 2
+object 608 448 608 1056 32 32 forest5.txt,0,128
+object 608 480 608 1088 32 32 forest5.txt,0,128

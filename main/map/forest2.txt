@@ -1,0 +1,156 @@
+name noname
+width 28
+height 14
+background forest
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y 0
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 0
+bg_translate_rate_y 0.3
+bgm forest.mp3 6.27
+mapchip 0 704 576 0 64 64 
+mapchip 64 704 576 0 64 64 
+mapchip 128 704 576 0 64 64 
+mapchip 192 704 576 0 64 64 
+mapchip 256 704 576 0 64 64 
+mapchip 320 704 576 0 64 64 
+mapchip 384 704 576 0 64 64 
+mapchip 448 704 576 0 64 64 
+mapchip 512 704 576 0 64 64 
+mapchip 576 704 576 0 64 64 
+mapchip 640 704 576 0 64 64 
+mapchip 704 704 576 0 64 64 
+mapchip 768 704 576 0 64 64 
+mapchip 832 704 576 0 64 64 
+mapchip 896 704 576 0 64 64 
+mapchip 960 704 576 0 64 64 
+mapchip 0 768 640 0 64 64 
+mapchip 64 768 640 0 64 64 
+mapchip 128 768 640 0 64 64 
+mapchip 192 768 640 0 64 64 
+mapchip 256 768 640 0 64 64 
+mapchip 320 768 640 0 64 64 
+mapchip 384 768 640 0 64 64 
+mapchip 448 768 640 0 64 64 
+mapchip 512 768 640 0 64 64 
+mapchip 576 768 640 0 64 64 
+mapchip 640 768 640 0 64 64 
+mapchip 704 768 640 0 64 64 
+mapchip 768 768 640 0 64 64 
+mapchip 832 768 640 0 64 64 
+mapchip 896 768 640 0 64 64 
+mapchip 960 768 640 0 64 64 
+mapchip 1024 768 640 0 64 64 
+mapchip 1088 768 640 0 64 64 
+mapchip 1152 768 640 0 64 64 
+mapchip 1216 768 640 0 64 64 
+mapchip 0 832 640 0 64 64 
+mapchip 64 832 640 0 64 64 
+mapchip 128 832 640 0 64 64 
+mapchip 192 832 640 0 64 64 
+mapchip 256 832 640 0 64 64 
+mapchip 320 832 640 0 64 64 
+mapchip 384 832 640 0 64 64 
+mapchip 448 832 640 0 64 64 
+mapchip 512 832 640 0 64 64 
+mapchip 576 832 640 0 64 64 
+mapchip 640 832 640 0 64 64 
+mapchip 704 832 640 0 64 64 
+mapchip 768 832 640 0 64 64 
+mapchip 832 832 640 0 64 64 
+mapchip 896 832 640 0 64 64 
+mapchip 960 832 640 0 64 64 
+mapchip 1024 832 640 0 64 64 
+mapchip 1088 832 640 0 64 64 
+mapchip 1152 832 640 0 64 64 
+mapchip 1216 832 640 0 64 64 
+mapchip 1024 704 576 0 64 64 
+mapchip 1088 704 576 0 64 64 
+mapchip 1152 704 576 0 64 64 
+mapchip 1216 704 576 0 64 64 
+mapchip 1280 704 576 0 64 64 
+mapchip 1344 704 576 0 64 64 
+mapchip 1408 704 576 0 64 64 
+mapchip 1472 704 576 0 64 64 
+mapchip 1536 704 576 0 64 64 
+mapchip 1600 704 576 0 64 64 
+mapchip 1664 704 576 0 64 64 
+mapchip 1728 704 576 0 64 64 
+mapchip 1280 768 640 0 64 64 
+mapchip 1344 768 640 0 64 64 
+mapchip 1408 768 640 0 64 64 
+mapchip 1472 768 640 0 64 64 
+mapchip 1536 768 640 0 64 64 
+mapchip 1600 768 640 0 64 64 
+mapchip 1664 768 640 0 64 64 
+mapchip 1728 768 640 0 64 64 
+mapchip 1792 768 640 0 64 64 
+mapchip 1280 832 640 0 64 64 
+mapchip 1344 832 640 0 64 64 
+mapchip 1408 832 640 0 64 64 
+mapchip 1472 832 640 0 64 64 
+mapchip 1536 832 640 0 64 64 
+mapchip 1600 832 640 0 64 64 
+mapchip 1664 832 640 0 64 64 
+mapchip 1728 832 640 0 64 64 
+mapchip 1792 832 640 0 64 64 
+mapchip 0 640 448 256 64 64 
+mapchip 64 640 448 256 64 64 
+mapchip 128 640 448 256 64 64 
+mapchip 192 640 448 256 64 64 
+mapchip 320 640 576 256 64 64 
+mapchip 576 640 192 512 64 64 
+mapchip 640 640 192 512 64 64 
+mapchip 832 448 320 0 64 64 
+mapchip 832 512 384 0 64 64 
+mapchip 832 576 384 0 64 64 
+mapchip 832 640 384 0 64 64 
+mapchip 1280 576 384 0 64 64 
+mapchip 1280 512 320 0 64 64 
+mapchip 1536 576 320 0 64 64 
+mapchip 1536 640 384 0 64 64 
+mapchip 1088 640 704 128 64 64 
+mapchip 1280 640 640 320 64 64 
+mapchip 1408 640 576 256 64 64 
+mapchip 1472 640 576 256 64 64 
+mapchip 1600 640 640 256 64 64 
+mapchip 768 640 576 256 64 64 
+object 768 480 128 512 32 32 0,1,180
+object 1216 672 320 512 32 32 
+object 0 640 608 1056 32 32 forest_river.txt,800,384
+object 0 672 608 1088 32 32 forest_river.txt,800,384
+object 1760 640 608 1056 32 32 forest15.txt,0,384
+object 1760 672 608 1088 32 32 forest15.txt,0,384
+object 1408 672 384 1024 32 32 
+object 1472 672 480 640 32 32 
+object 960 672 384 1024 32 32 
+object 1088 576 320 704 32 32 
+object 896 480 128 512 32 32 0,1,180
+object 768 512 0 544 32 32 
+object 800 448 0 544 32 32 
+object 800 576 0 544 32 32 
+object 928 448 0 544 32 32 
+object 896 512 0 544 32 32 
+object 928 576 0 544 32 32 
+object 1504 640 0 544 32 32 
+object 1504 672 0 544 32 32 
+object 1408 416 0 544 32 32 
+object 288 672 480 640 32 32 
+object 800 672 480 640 32 32 
+billboard 224 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 256 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 640 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 448 608 64 0 64 96 0.875 1 images\trees.bmp
+billboard 1440 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 1312 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 1376 608 64 0 64 96 0.875 1 images\trees.bmp
+billboard 1664 608 64 0 64 96 0.875 1 images\trees.bmp
+billboard 1632 608 64 0 64 96 0.875 1 images\trees.bmp
+billboard 1536 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 1504 608 0 0 64 96 0.875 1 images\trees.bmp
+billboard 1216 608 0 0 64 96 0.875 1 images\trees.bmp

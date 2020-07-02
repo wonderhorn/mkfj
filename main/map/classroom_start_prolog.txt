@@ -1,0 +1,116 @@
+name noname
+width 16
+height 9
+background school
+bg_image_width 640
+bg_image_height 480
+bg_offset_x -32
+bg_offset_y 96
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 1
+bg_translate_rate_y 1
+bgm dailylife2.mp3 5.24
+mapchip 64 512 0 64 64 64 
+mapchip 128 512 0 64 64 64 
+mapchip 192 512 0 64 64 64 
+mapchip 256 512 0 64 64 64 
+mapchip 320 512 0 64 64 64 
+mapchip 384 512 0 64 64 64 
+mapchip 448 512 0 64 64 64 
+mapchip 512 512 0 64 64 64 
+mapchip 576 512 0 64 64 64 
+mapchip 640 512 0 64 64 64 
+mapchip 0 0 0 64 64 64 
+mapchip 0 64 0 64 64 64 
+mapchip 0 128 0 64 64 64 
+mapchip 0 192 0 64 64 64 
+mapchip 0 256 0 64 64 64 
+mapchip 0 320 0 64 64 64 
+mapchip 0 384 0 64 64 64 
+mapchip 0 448 0 64 64 64 
+mapchip 0 512 0 64 64 64 
+mapchip 704 512 0 64 64 64 
+mapchip 768 512 0 64 64 64 
+mapchip 832 512 0 64 64 64 
+mapchip 640 0 0 64 64 64 
+mapchip 640 64 0 64 64 64 
+mapchip 640 128 0 64 64 64 
+mapchip 640 192 0 64 64 64 
+mapchip 640 256 0 64 64 64 
+mapchip 640 320 0 64 64 64 
+mapchip 640 384 0 64 64 64 
+mapchip 640 448 0 64 64 64 
+mapchip 704 0 0 64 64 64 
+mapchip 768 0 0 64 64 64 
+mapchip 832 0 0 64 64 64 
+mapchip 704 64 0 64 64 64 
+mapchip 768 64 0 64 64 64 
+mapchip 832 64 0 64 64 64 
+mapchip 704 128 0 64 64 64 
+mapchip 768 128 0 64 64 64 
+mapchip 832 128 0 64 64 64 
+mapchip 704 192 0 64 64 64 
+mapchip 768 192 0 64 64 64 
+mapchip 832 192 0 64 64 64 
+mapchip 704 256 0 64 64 64 
+mapchip 768 256 0 64 64 64 
+mapchip 832 256 0 64 64 64 
+mapchip 704 320 0 64 64 64 
+mapchip 768 320 0 64 64 64 
+mapchip 832 320 0 64 64 64 
+mapchip 704 384 0 64 64 64 
+mapchip 768 384 0 64 64 64 
+mapchip 832 384 0 64 64 64 
+mapchip 704 448 0 64 64 64 
+mapchip 768 448 0 64 64 64 
+mapchip 832 448 0 64 64 64 
+mapchip 64 448 0 0 64 64 
+mapchip 128 448 0 0 64 64 
+mapchip 192 448 0 0 64 64 
+mapchip 256 448 0 0 64 64 
+mapchip 320 448 0 0 64 64 
+mapchip 384 448 0 0 64 64 
+mapchip 448 448 0 0 64 64 
+mapchip 512 448 0 0 64 64 
+mapchip 576 448 0 0 64 64 
+mapchip 64 0 0 64 64 64 
+mapchip 128 0 0 64 64 64 
+mapchip 192 0 0 64 64 64 
+mapchip 256 0 0 64 64 64 
+mapchip 320 0 0 64 64 64 
+mapchip 384 0 0 64 64 64 
+mapchip 448 0 0 64 64 64 
+mapchip 512 0 0 64 64 64 
+mapchip 576 0 0 64 64 64 
+mapchip 192 384 0 192 64 64 
+mapchip 384 384 0 192 64 64 
+mapchip 448 384 0 192 64 64 
+mapchip 64 64 0 64 64 64 
+mapchip 128 64 0 64 64 64 
+mapchip 192 64 0 64 64 64 
+mapchip 256 64 0 64 64 64 
+mapchip 320 64 0 64 64 64 
+mapchip 384 64 0 64 64 64 
+mapchip 448 64 0 64 64 64 
+mapchip 512 64 0 64 64 64 
+mapchip 576 64 0 64 64 64 
+mapchip 64 128 0 64 64 64 
+mapchip 128 128 0 64 64 64 
+mapchip 192 128 0 64 64 64 
+mapchip 256 128 0 64 64 64 
+mapchip 320 128 0 64 64 64 
+mapchip 384 128 0 64 64 64 
+mapchip 448 128 0 64 64 64 
+mapchip 512 128 0 64 64 64 
+mapchip 576 128 0 64 64 64 
+mapchip 192 192 256 512 64 64 
+mapchip 448 192 256 512 64 64 
+mapchip 512 384 768 320 64 64 
+mapchip 256 384 768 320 64 64 
+mapchip 320 192 192 832 64 64 
+object 96 384 0 0 32 32 
+object 608 384 544 512 32 32 rouka1.txt,96,576
+object 608 416 544 512 32 32 rouka1.txt,96,576

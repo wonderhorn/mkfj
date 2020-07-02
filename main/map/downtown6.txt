@@ -1,0 +1,88 @@
+name noname
+width 12
+height 8
+background cave
+bg_image_width 640
+bg_image_height 480
+bg_offset_x 0
+bg_offset_y 0
+bg_x_min -999999
+bg_x_max 999999
+bg_y_min -999999
+bg_y_max 999999
+bg_translate_rate_x 1
+bg_translate_rate_y 1
+bgm city.mp3 0
+mapchip 0 448 256 64 64 64 
+mapchip 64 448 256 64 64 64 
+mapchip 128 448 256 64 64 64 
+mapchip 192 448 256 0 64 64 
+mapchip 256 448 256 64 64 64 
+mapchip 320 448 256 64 64 64 
+mapchip 384 448 256 64 64 64 
+mapchip 448 448 256 64 64 64 
+mapchip 512 448 256 64 64 64 
+mapchip 576 448 256 0 64 64 
+mapchip 640 448 256 64 64 64 
+mapchip 704 448 256 64 64 64 
+mapchip 768 448 256 64 64 64 
+mapchip 832 448 256 64 64 64 
+mapchip 896 448 256 64 64 64 
+mapchip 960 448 256 64 64 64 
+mapchip 1024 448 256 64 64 64 
+mapchip 1088 448 256 64 64 64 
+mapchip 1152 448 256 64 64 64 
+mapchip 0 0 256 0 64 64 
+mapchip 0 64 256 0 64 64 
+mapchip 0 128 256 0 64 64 
+mapchip 0 192 256 0 64 64 
+mapchip 0 256 256 0 64 64 
+mapchip 0 320 256 0 64 64 
+mapchip 64 0 256 0 64 64 
+mapchip 128 0 256 0 64 64 
+mapchip 192 0 256 0 64 64 
+mapchip 256 0 256 0 64 64 
+mapchip 320 0 256 0 64 64 
+mapchip 384 0 256 0 64 64 
+mapchip 448 0 256 0 64 64 
+mapchip 512 0 256 0 64 64 
+mapchip 576 0 256 0 64 64 
+mapchip 576 384 256 64 64 64 
+mapchip 704 0 256 0 64 64 
+mapchip 704 64 256 0 64 64 
+mapchip 704 128 256 0 64 64 
+mapchip 704 192 256 0 64 64 
+mapchip 704 256 256 0 64 64 
+mapchip 704 320 256 0 64 64 
+mapchip 640 0 256 0 64 64 
+mapchip 192 64 256 0 64 64 
+mapchip 448 64 256 0 64 64 
+mapchip 640 64 256 0 64 64 
+mapchip 64 64 256 0 64 64 
+mapchip 384 64 256 0 64 64 
+mapchip 512 64 256 0 64 64 
+mapchip 192 384 256 64 64 64 
+mapchip 128 64 256 0 64 64 
+mapchip 192 128 128 704 64 64 
+mapchip 384 384 704 704 64 64 
+mapchip 256 64 256 0 64 64 
+mapchip 320 64 256 0 64 64 
+mapchip 576 64 256 0 64 64 
+mapchip 576 128 128 704 64 64 
+object 704 384 512 992 32 32 mbdt
+object 0 384 608 1056 32 32 downtown5.txt,64,320
+object 0 416 608 1088 32 32 downtown5.txt,64,320
+object 192 192 32 960 32 32 4
+object 192 224 32 960 32 32 4
+object 192 256 32 960 32 32 4
+object 192 288 32 960 32 32 4
+object 192 320 32 960 32 32 4
+object 192 352 32 960 32 32 4
+object 384 288 32 992 32 32 
+object 736 384 608 1056 32 32 downtown7.txt,64,1408
+object 736 416 608 1088 32 32 downtown7.txt,64,1408
+billboard 288 320 0 0 96 160 1 1 images\cave.bmp
+billboard 128 384 96 0 64 96 1 1 images\cave.bmp
+billboard 512 384 96 0 64 96 1 1 images\cave.bmp
+billboard 384 128 128 96 32 64 1 1 images\cave.bmp
+billboard 544 128 128 96 32 64 1 1 images\cave.bmp
